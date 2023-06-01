@@ -7929,7 +7929,7 @@
   , "title": "CSS View Transitions Module Level 1"
   }
 , { "property": "view-transition-name"
-  , "url": "https://www.w3.org/TR/2022/WD-css-view-transitions-1-20221124/#propdef-view-transition-name"
+  , "url": "https://www.w3.org/TR/2023/WD-css-view-transitions-1-20230530/#propdef-view-transition-name"
   , "status": "WD"
   , "title": "CSS View Transitions Module Level 1"
   }
