@@ -128,6 +128,36 @@
   , "status": "CR"
   , "title": "CSS Cascading and Inheritance Level 5"
   }
+, { "property": "anchor-default"
+  , "url": "https://drafts.csswg.org/css-anchor-position-1/#propdef-anchor-default"
+  , "status": "ED"
+  , "title": "CSS Anchor Positioning"
+  }
+, { "property": "anchor-default"
+  , "url": "https://www.w3.org/TR/2023/WD-css-anchor-position-1-20230629/#propdef-anchor-default"
+  , "status": "FPWD"
+  , "title": "CSS Anchor Positioning"
+  }
+, { "property": "anchor-name"
+  , "url": "https://drafts.csswg.org/css-anchor-position-1/#propdef-anchor-name"
+  , "status": "ED"
+  , "title": "CSS Anchor Positioning"
+  }
+, { "property": "anchor-name"
+  , "url": "https://www.w3.org/TR/2023/WD-css-anchor-position-1-20230629/#propdef-anchor-name"
+  , "status": "FPWD"
+  , "title": "CSS Anchor Positioning"
+  }
+, { "property": "anchor-scroll"
+  , "url": "https://drafts.csswg.org/css-anchor-position-1/#propdef-anchor-scroll"
+  , "status": "ED"
+  , "title": "CSS Anchor Positioning"
+  }
+, { "property": "anchor-scroll"
+  , "url": "https://www.w3.org/TR/2023/WD-css-anchor-position-1-20230629/#propdef-anchor-scroll"
+  , "status": "FPWD"
+  , "title": "CSS Anchor Positioning"
+  }
 , { "property": "animation"
   , "url": "https://drafts.csswg.org/css-animations/#propdef-animation"
   , "status": "ED"
@@ -144,8 +174,8 @@
   , "title": "CSS Animations Level 2"
   }
 , { "property": "animation-composition"
-  , "url": "https://www.w3.org/TR/2023/WD-css-animations-2-20230302/#propdef-animation-composition"
-  , "status": "FPWD"
+  , "url": "https://www.w3.org/TR/2023/WD-css-animations-2-20230602/#propdef-animation-composition"
+  , "status": "WD"
   , "title": "CSS Animations Level 2"
   }
 , { "property": "animation-delay"
@@ -182,6 +212,11 @@
   , "url": "https://www.w3.org/TR/2023/WD-css-animations-1-20230302/#propdef-animation-duration"
   , "status": "WD"
   , "title": "CSS Animations Level 1"
+  }
+, { "property": "animation-duration"
+  , "url": "https://www.w3.org/TR/2023/WD-css-animations-2-20230602/#propdef-animation-duration"
+  , "status": "WD"
+  , "title": "CSS Animations Level 2"
   }
 , { "property": "animation-fill-mode"
   , "url": "https://drafts.csswg.org/css-animations/#propdef-animation-fill-mode"
@@ -229,7 +264,7 @@
   , "title": "Scroll-driven Animations"
   }
 , { "property": "animation-range"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-animation-range"
+  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230606/#propdef-animation-range"
   , "status": "WD"
   , "title": "Scroll-driven Animations"
   }
@@ -239,7 +274,7 @@
   , "title": "Scroll-driven Animations"
   }
 , { "property": "animation-range-end"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-animation-range-end"
+  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230606/#propdef-animation-range-end"
   , "status": "WD"
   , "title": "Scroll-driven Animations"
   }
@@ -249,7 +284,7 @@
   , "title": "Scroll-driven Animations"
   }
 , { "property": "animation-range-start"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-animation-range-start"
+  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230606/#propdef-animation-range-start"
   , "status": "WD"
   , "title": "Scroll-driven Animations"
   }
@@ -259,8 +294,8 @@
   , "title": "CSS Animations Level 2"
   }
 , { "property": "animation-timeline"
-  , "url": "https://www.w3.org/TR/2023/WD-css-animations-2-20230302/#propdef-animation-timeline"
-  , "status": "FPWD"
+  , "url": "https://www.w3.org/TR/2023/WD-css-animations-2-20230602/#propdef-animation-timeline"
+  , "status": "WD"
   , "title": "CSS Animations Level 2"
   }
 , { "property": "animation-timing-function"
@@ -6043,6 +6078,26 @@
   , "status": "WD"
   , "title": "CSS Positioned Layout Module Level 3"
   }
+, { "property": "position-fallback"
+  , "url": "https://drafts.csswg.org/css-anchor-position-1/#propdef-position-fallback"
+  , "status": "ED"
+  , "title": "CSS Anchor Positioning"
+  }
+, { "property": "position-fallback"
+  , "url": "https://www.w3.org/TR/2023/WD-css-anchor-position-1-20230629/#propdef-position-fallback"
+  , "status": "FPWD"
+  , "title": "CSS Anchor Positioning"
+  }
+, { "property": "position-fallback-bounds"
+  , "url": "https://drafts.csswg.org/css-anchor-position-1/#propdef-position-fallback-bounds"
+  , "status": "ED"
+  , "title": "CSS Anchor Positioning"
+  }
+, { "property": "position-fallback-bounds"
+  , "url": "https://www.w3.org/TR/2023/WD-css-anchor-position-1-20230629/#propdef-position-fallback-bounds"
+  , "status": "FPWD"
+  , "title": "CSS Anchor Positioning"
+  }
 , { "property": "print-color-adjust"
   , "url": "https://drafts.csswg.org/css-color-adjust-1/#propdef-print-color-adjust"
   , "status": "ED"
@@ -6529,17 +6584,7 @@
   , "title": "Scroll-driven Animations"
   }
 , { "property": "scroll-timeline"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-scroll-timeline"
-  , "status": "WD"
-  , "title": "Scroll-driven Animations"
-  }
-, { "property": "scroll-timeline-attachment"
-  , "url": "https://drafts.csswg.org/scroll-animations-1/#propdef-scroll-timeline-attachment"
-  , "status": "ED"
-  , "title": "Scroll-driven Animations"
-  }
-, { "property": "scroll-timeline-attachment"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-scroll-timeline-attachment"
+  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230606/#propdef-scroll-timeline"
   , "status": "WD"
   , "title": "Scroll-driven Animations"
   }
@@ -6549,7 +6594,7 @@
   , "title": "Scroll-driven Animations"
   }
 , { "property": "scroll-timeline-axis"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-scroll-timeline-axis"
+  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230606/#propdef-scroll-timeline-axis"
   , "status": "WD"
   , "title": "Scroll-driven Animations"
   }
@@ -6559,7 +6604,7 @@
   , "title": "Scroll-driven Animations"
   }
 , { "property": "scroll-timeline-name"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-scroll-timeline-name"
+  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230606/#propdef-scroll-timeline-name"
   , "status": "WD"
   , "title": "Scroll-driven Animations"
   }
@@ -7678,6 +7723,16 @@
   , "status": "WD"
   , "title": "CSS Text Module Level 4"
   }
+, { "property": "timeline-scope"
+  , "url": "https://drafts.csswg.org/scroll-animations-1/#propdef-timeline-scope"
+  , "status": "ED"
+  , "title": "Scroll-driven Animations"
+  }
+, { "property": "timeline-scope"
+  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230606/#propdef-timeline-scope"
+  , "status": "WD"
+  , "title": "Scroll-driven Animations"
+  }
 , { "property": "top"
   , "url": "http://www.w3.org/TR/2011/REC-CSS2-20110607/visuren.html#propdef-top"
   , "status": "REC"
@@ -7879,17 +7934,7 @@
   , "title": "Scroll-driven Animations"
   }
 , { "property": "view-timeline"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-view-timeline"
-  , "status": "WD"
-  , "title": "Scroll-driven Animations"
-  }
-, { "property": "view-timeline-attachment"
-  , "url": "https://drafts.csswg.org/scroll-animations-1/#propdef-view-timeline-attachment"
-  , "status": "ED"
-  , "title": "Scroll-driven Animations"
-  }
-, { "property": "view-timeline-attachment"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-view-timeline-attachment"
+  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230606/#propdef-view-timeline"
   , "status": "WD"
   , "title": "Scroll-driven Animations"
   }
@@ -7899,7 +7944,7 @@
   , "title": "Scroll-driven Animations"
   }
 , { "property": "view-timeline-axis"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-view-timeline-axis"
+  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230606/#propdef-view-timeline-axis"
   , "status": "WD"
   , "title": "Scroll-driven Animations"
   }
@@ -7909,7 +7954,7 @@
   , "title": "Scroll-driven Animations"
   }
 , { "property": "view-timeline-inset"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-view-timeline-inset"
+  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230606/#propdef-view-timeline-inset"
   , "status": "WD"
   , "title": "Scroll-driven Animations"
   }
@@ -7919,7 +7964,7 @@
   , "title": "Scroll-driven Animations"
   }
 , { "property": "view-timeline-name"
-  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230428/#propdef-view-timeline-name"
+  , "url": "https://www.w3.org/TR/2023/WD-scroll-animations-1-20230606/#propdef-view-timeline-name"
   , "status": "WD"
   , "title": "Scroll-driven Animations"
   }
