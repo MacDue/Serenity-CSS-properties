@@ -2068,6 +2068,11 @@
   , "status": "WD"
   , "title": "CSS Box Alignment Module Level 3"
   }
+, { "property": "column-height"
+  , "url": "https://drafts.csswg.org/css-multicol-2/#propdef-column-height"
+  , "status": "ED"
+  , "title": "CSS Multi-column Layout Module Level 2"
+  }
 , { "property": "column-rule"
   , "url": "https://drafts.csswg.org/css-multicol-2/#propdef-column-rule"
   , "status": "ED"
@@ -2186,6 +2191,11 @@
 , { "property": "column-width"
   , "url": "https://www.w3.org/TR/2024/WD-css-multicol-2-20241219/#propdef-column-width"
   , "status": "FPWD"
+  , "title": "CSS Multi-column Layout Module Level 2"
+  }
+, { "property": "column-wrap"
+  , "url": "https://drafts.csswg.org/css-multicol-2/#propdef-column-wrap"
+  , "status": "ED"
   , "title": "CSS Multi-column Layout Module Level 2"
   }
 , { "property": "columns"
@@ -2433,45 +2443,15 @@
   , "status": "REC"
   , "title": "CSS 2.1"
   }
-, { "property": "cue"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-cue"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "cue"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-cue"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
 , { "property": "cue-after"
   , "url": "http://www.w3.org/TR/2011/REC-CSS2-20110607/aural.html#propdef-cue-after"
   , "status": "REC"
   , "title": "CSS 2.1"
   }
-, { "property": "cue-after"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-cue-after"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "cue-after"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-cue-after"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
 , { "property": "cue-before"
   , "url": "http://www.w3.org/TR/2011/REC-CSS2-20110607/aural.html#propdef-cue-before"
   , "status": "REC"
   , "title": "CSS 2.1"
-  }
-, { "property": "cue-before"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-cue-before"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "cue-before"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-cue-before"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
   }
 , { "property": "cursor"
   , "url": "http://www.w3.org/TR/2011/REC-CSS2-20110607/ui.html#propdef-cursor"
@@ -3574,11 +3554,6 @@
   , "title": "CSS Grid Layout Module Level 2"
   }
 , { "property": "grid-auto-flow"
-  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-grid-auto-flow"
-  , "status": "ED"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "grid-auto-flow"
   , "url": "https://drafts.csswg.org/css-grid/#propdef-grid-auto-flow"
   , "status": "ED"
   , "title": "CSS Grid Layout Module Level 1"
@@ -3592,11 +3567,6 @@
   , "url": "https://www.w3.org/TR/2020/CRD-css-grid-2-20201218/#propdef-grid-auto-flow"
   , "status": "CRD"
   , "title": "CSS Grid Layout Module Level 2"
-  }
-, { "property": "grid-auto-flow"
-  , "url": "https://www.w3.org/TR/2024/WD-css-grid-3-20241003/#propdef-grid-auto-flow"
-  , "status": "WD"
-  , "title": "CSS Grid Layout Module Level 3"
   }
 , { "property": "grid-auto-rows"
   , "url": "https://drafts.csswg.org/css-grid-2/#propdef-grid-auto-rows"
@@ -4222,6 +4192,76 @@
   , "url": "https://www.w3.org/TR/2024/CRD-compositing-1-20240321/#propdef-isolation"
   , "status": "CRD"
   , "title": "Compositing and Blending Level 1"
+  }
+, { "property": "item-cross"
+  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-item-cross"
+  , "status": "ED"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-cross"
+  , "url": "https://www.w3.org/TR/2025/WD-css-grid-3-20250207/#propdef-item-cross"
+  , "status": "WD"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-direction"
+  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-item-direction"
+  , "status": "ED"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-direction"
+  , "url": "https://www.w3.org/TR/2025/WD-css-grid-3-20250207/#propdef-item-direction"
+  , "status": "WD"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-flow"
+  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-item-flow"
+  , "status": "ED"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-flow"
+  , "url": "https://www.w3.org/TR/2025/WD-css-grid-3-20250207/#propdef-item-flow"
+  , "status": "WD"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-pack"
+  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-item-pack"
+  , "status": "ED"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-pack"
+  , "url": "https://www.w3.org/TR/2025/WD-css-grid-3-20250207/#propdef-item-pack"
+  , "status": "WD"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-slack"
+  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-item-slack"
+  , "status": "ED"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-slack"
+  , "url": "https://www.w3.org/TR/2025/WD-css-grid-3-20250207/#propdef-item-slack"
+  , "status": "WD"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-track"
+  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-item-track"
+  , "status": "ED"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-track"
+  , "url": "https://www.w3.org/TR/2025/WD-css-grid-3-20250207/#propdef-item-track"
+  , "status": "WD"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-wrap"
+  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-item-wrap"
+  , "status": "ED"
+  , "title": "CSS Grid Layout Module Level 3"
+  }
+, { "property": "item-wrap"
+  , "url": "https://www.w3.org/TR/2025/WD-css-grid-3-20250207/#propdef-item-wrap"
+  , "status": "WD"
+  , "title": "CSS Grid Layout Module Level 3"
   }
 , { "property": "justify-content"
   , "url": "https://drafts.csswg.org/css-align/#propdef-justify-content"
@@ -5052,86 +5092,6 @@
   , "url": "https://www.w3.org/TR/2021/CRD-css-masking-1-20210805/#propdef-mask-type"
   , "status": "CRD"
   , "title": "CSS Masking Module Level 1"
-  }
-, { "property": "masonry"
-  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-masonry"
-  , "status": "ED"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry"
-  , "url": "https://www.w3.org/TR/2024/WD-css-grid-3-20241003/#propdef-masonry"
-  , "status": "WD"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-auto-tracks"
-  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-masonry-auto-tracks"
-  , "status": "ED"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-auto-tracks"
-  , "url": "https://www.w3.org/TR/2024/WD-css-grid-3-20241003/#propdef-masonry-auto-tracks"
-  , "status": "WD"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-direction"
-  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-masonry-direction"
-  , "status": "ED"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-direction"
-  , "url": "https://www.w3.org/TR/2024/WD-css-grid-3-20241003/#propdef-masonry-direction"
-  , "status": "WD"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-fill"
-  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-masonry-fill"
-  , "status": "ED"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-fill"
-  , "url": "https://www.w3.org/TR/2024/WD-css-grid-3-20241003/#propdef-masonry-fill"
-  , "status": "WD"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-flow"
-  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-masonry-flow"
-  , "status": "ED"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-flow"
-  , "url": "https://www.w3.org/TR/2024/WD-css-grid-3-20241003/#propdef-masonry-flow"
-  , "status": "WD"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-slack"
-  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-masonry-slack"
-  , "status": "ED"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-slack"
-  , "url": "https://www.w3.org/TR/2024/WD-css-grid-3-20241003/#propdef-masonry-slack"
-  , "status": "WD"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-template-areas"
-  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-masonry-template-areas"
-  , "status": "ED"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-template-areas"
-  , "url": "https://www.w3.org/TR/2024/WD-css-grid-3-20241003/#propdef-masonry-template-areas"
-  , "status": "WD"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-template-tracks"
-  , "url": "https://drafts.csswg.org/css-grid-3/#propdef-masonry-template-tracks"
-  , "status": "ED"
-  , "title": "CSS Grid Layout Module Level 3"
-  }
-, { "property": "masonry-template-tracks"
-  , "url": "https://www.w3.org/TR/2024/WD-css-grid-3-20241003/#propdef-masonry-template-tracks"
-  , "status": "WD"
-  , "title": "CSS Grid Layout Module Level 3"
   }
 , { "property": "max-block-size"
   , "url": "https://drafts.csswg.org/css-logical-1/#propdef-max-block-size"
@@ -6233,45 +6193,15 @@
   , "status": "REC"
   , "title": "CSS 2.1"
   }
-, { "property": "pause"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-pause"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "pause"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-pause"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
 , { "property": "pause-after"
   , "url": "http://www.w3.org/TR/2011/REC-CSS2-20110607/aural.html#propdef-pause-after"
   , "status": "REC"
   , "title": "CSS 2.1"
   }
-, { "property": "pause-after"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-pause-after"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "pause-after"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-pause-after"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
 , { "property": "pause-before"
   , "url": "http://www.w3.org/TR/2011/REC-CSS2-20110607/aural.html#propdef-pause-before"
   , "status": "REC"
   , "title": "CSS 2.1"
-  }
-, { "property": "pause-before"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-pause-before"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "pause-before"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-pause-before"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
   }
 , { "property": "perspective"
   , "url": "https://drafts.csswg.org/css-transforms-2/#propdef-perspective"
@@ -6517,36 +6447,6 @@
   , "url": "https://www.w3.org/TR/2021/WD-css-ui-4-20210316/#propdef-resize"
   , "status": "WD"
   , "title": "CSS Basic User Interface Module Level 4"
-  }
-, { "property": "rest"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-rest"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "rest"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-rest"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "rest-after"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-rest-after"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "rest-after"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-rest-after"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "rest-before"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-rest-before"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "rest-before"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-rest-before"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
   }
 , { "property": "richness"
   , "url": "http://www.w3.org/TR/2011/REC-CSS2-20110607/aural.html#propdef-richness"
@@ -7087,26 +6987,6 @@
   , "url": "http://www.w3.org/TR/2011/REC-CSS2-20110607/aural.html#propdef-speak"
   , "status": "REC"
   , "title": "CSS 2.1"
-  }
-, { "property": "speak"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-speak"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "speak"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-speak"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "speak-as"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-speak-as"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "speak-as"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-speak-as"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
   }
 , { "property": "speak-header"
   , "url": "http://www.w3.org/TR/2011/REC-CSS2-20110607/aural.html#propdef-speak-header"
@@ -8458,90 +8338,10 @@
   , "status": "FPWD"
   , "title": "CSS Display Module Level 4"
   }
-, { "property": "voice-balance"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-voice-balance"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-balance"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-voice-balance"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-duration"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-voice-duration"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-duration"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-voice-duration"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
 , { "property": "voice-family"
   , "url": "http://www.w3.org/TR/2011/REC-CSS2-20110607/aural.html#propdef-voice-family"
   , "status": "REC"
   , "title": "CSS 2.1"
-  }
-, { "property": "voice-family"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-voice-family"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-family"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-voice-family"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-pitch"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-voice-pitch"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-pitch"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-voice-pitch"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-range"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-voice-range"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-range"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-voice-range"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-rate"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-voice-rate"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-rate"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-voice-rate"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-stress"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-voice-stress"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-stress"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-voice-stress"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-volume"
-  , "url": "https://drafts.csswg.org/css-speech-1/#propdef-voice-volume"
-  , "status": "ED"
-  , "title": "CSS Speech Module Level 1"
-  }
-, { "property": "voice-volume"
-  , "url": "https://www.w3.org/TR/2023/CRD-css-speech-1-20230214/#propdef-voice-volume"
-  , "status": "CRD"
-  , "title": "CSS Speech Module Level 1"
   }
 , { "property": "volume"
   , "url": "http://www.w3.org/TR/2011/REC-CSS2-20110607/aural.html#propdef-volume"
